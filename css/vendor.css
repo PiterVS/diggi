@@ -11,6 +11,11 @@
 /*--------------------------------------------------------------
 /** Jarallax
 --------------------------------------------------------------*/
+body {
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+  }
+
+
 .jarallax {
   position: relative;
   z-index: 0;
