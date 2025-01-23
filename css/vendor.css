@@ -15,20 +15,102 @@ body {
     font-family: 'Montserrat', 'Poppins', sans-serif;
   }
 
-
-.jarallax {
-  position: relative;
-  z-index: 0;
-  min-height: 520px;
+.header-gradient {
+  background: linear-gradient(to right, #000008, #00054A);
 }
+
+/* Estilo dos botões */
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #cccccc;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #cccccc;
+  }
+  
+  /* Estilo dos textos */
+  .header-gradient .text-muted,
+  .header-gradient .text-primary,
+  .header-gradient .nav-link,
+  .header-gradient .navbar-toggler-icon,
+  .header-gradient .badge {
+    color: #ffffff;
+  }
+  
+  /* Estilo dos inputs */
+.header-gradient .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .header-gradient .form-control::placeholder {
+    color: #ffffff;
+  }
+  
+  /* Estilo dos ícones */
+  .header-gradient svg path {
+    fill: #ffffff;
+  }
+  
+  .logo {
+    width: 150px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  /* Estilo para links na navbar */
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Cor do texto normal */
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: #58a0ff; /* Cor do texto quando o mouse está sobre o link */
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #58a0ff !important; /* Cor do texto quando o link está ativo */
+  }
+  
+  /* Estilo para botões */
+  .btn-primary {
+    background-color: #ffffff !important;
+    border-color: #cccccc;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #ffffff !important;
+    border-color: #cccccc;
+  }
+
+  /* Estilo dos ícones SVG */
+svg path {
+    fill: #ffffff; /* Cor padrão dos ícones */
+  }
+  
+  svg:hover path {
+    fill: #58a0ff; /* Cor dos ícones quando o mouse está sobre eles */
+  }
+  
+  /* ------------------------------------------------- */
+  
+  .jarallax {
+    position: relative;
+    z-index: 0;
+    min-height: 520px;
+  }
 .jarallax > .jarallax-img {
   position: absolute;
   object-fit: cover;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -1; */
 }
 .jarallax-keep-img {
   position: relative;
@@ -202,7 +284,7 @@ body {
     display: inline-block;
     padding-right: 15px;
     line-height: 1;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(241, 241, 241, 0.3);
 }
 .chocolat-wrapper .chocolat-pagination {
     float: right;
