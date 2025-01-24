@@ -1,6 +1,6 @@
 .header-fundo{
- background-color: #04045a;
- border-radius: 2%;
+ background-color: #15156e;
+ border-radius: 1%;
 }
 
 .header-letra .span{
@@ -18,3 +18,10 @@
 #search-form input::placeholder {
     color: #fff;
 }
+
+.header-letra .contato span,
+.header-letra .support-box span {
+color: white !important;
+}
+
+
