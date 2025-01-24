@@ -18,8 +18,6 @@ O site da Diggi foi desenvolvido com as seguintes tecnologias:
     HTML5: Estrutura e conteúdo da página.
     CSS3: Design responsivo e estilização avançada.
     JavaScript: Interatividade e funcionalidades dinâmicas.
-    React.js: Construção de componentes reutilizáveis e interação moderna.
-    Node.js: Backend para processamento de solicitações e API.
 
 Funcionalidades do Site
 
@@ -52,9 +50,9 @@ Contato
 
 Entre em contato com a Diggi para dúvidas, sugestões ou informações sobre nossos serviços:
 
-    Site oficial: www.diggi.com.br
-    E-mail: contato@diggi.com.br
-    Telefone/WhatsApp: (XX) XXXX-XXXX
-    Redes sociais: @DiggiGrafica
+    Site oficial: www.XXXXXXXX
+    E-mail: diggi.contato@gmail.com
+    Telefone/WhatsApp: (61) 98318-8500
+    Redes sociais: @XXXXXXXXX
 
 Juntos criamos soluções gráficas incríveis!
