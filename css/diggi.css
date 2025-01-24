@@ -1,0 +1,20 @@
+.header-fundo{
+ background-color: #04045a;
+ border-radius: 2%;
+}
+
+.header-letra .span{
+    color: #fff;
+}
+
+.header-letra h5{
+    color: #fff;
+}
+
+.form-placeholder{
+    color: #fff;
+}
+
+#search-form input::placeholder {
+    color: #fff;
+}
